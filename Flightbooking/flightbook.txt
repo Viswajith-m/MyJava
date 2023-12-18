@@ -1,0 +1,4 @@
+flight booking #class using Java 
+which has 2 classes
+1.Flight.java for backend works
+2.BookTickets.java for normal booking(frontend)
