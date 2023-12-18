@@ -1,0 +1,5 @@
+A basic coded project using Java for bus reservation 
+to do operations like
+1.booking 
+2.checking
+covered basic concepts such as arraylist in java
