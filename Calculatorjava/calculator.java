@@ -8,7 +8,7 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
 public class calculator implements ActionListener{
-    JLabel displayLabel,displayLabel1;
+    JLabel displayLabel;
     JButton but7,but8,but9,div;
     JButton but4,but5,but6,mul;
     JButton but1,but2,but3,sub;
@@ -110,24 +110,6 @@ public class calculator implements ActionListener{
 
     public static void main(String[] args) {
         new calculator();
-    }
-    public void calculate(float oldv,float newv,String op){
-        float value;
-        switch (op) {
-            case "+":
-                value = oldv+newv;
-                displayLabel.setText(value+"");
-            case "-":
-                value = oldv-newv;
-                displayLabel.setText(value+"");
-            case "*":
-                value = oldv/newv;
-                displayLabel.setText(value+"");
-            case "/":
-                value = oldv/newv;
-                displayLabel.setText(value+"");
-        }
-        
     }
 
     @Override
